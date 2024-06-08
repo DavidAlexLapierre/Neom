@@ -1,15 +1,14 @@
 {
-  "name": "aura-theme",
-  "displayName": "Aura Theme",
+  "name": "neon-theme",
+  "displayName": "Neon Theme",
   "description": "A beautiful dark theme for Visual Studio Code",
-  "version": "2.1.2",
+  "version": "3.0.1",
   "scripts": {
-    "publish": "vsce publish"
+    "publish": "vsce pacakge"
   },
-  "publisher": "DaltonMenezes",
+  "publisher": "dalapi",
   "author": {
-    "name": "Dalton Menezes",
-    "email": "daltonmenezes@outlook.com",
+    "name": "David-Alexandre Lapierre",
     "url": "https://daltonmenezes.github.io"
   },
   "icon": "logo.png",
@@ -33,24 +32,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Aura Dark (Soft Text)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-dark-soft-text-color-theme.json"
-      },
-      {
         "label": "Aura Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/aura-dark-color-theme.json"
-      },
-      {
-        "label": "Aura Soft Dark (Soft Text)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-soft-dark-soft-text-color-theme.json"
-      },
-      {
-        "label": "Aura Soft Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aura-soft-dark-color-theme.json"
       }
     ]
   },
